@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="root" prefHeight="526.0" prefWidth="694.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep11.pos.controller.SplashScreenController">
+   <children>
+      <ImageView fitHeight="296.0" fitWidth="500.0" layoutX="305.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asset/counter.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="154.0" fitWidth="318.0" layoutX="145.0" layoutY="272.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asset/SellMate-logo-2.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
