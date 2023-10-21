@@ -26,7 +26,7 @@
                </stops>
             </LinearGradient>
          </fill></Rectangle>
-      <ImageView id="imgHome" fitHeight="53.0" fitWidth="61.0" layoutX="14.0" layoutY="16.0" onMouseClicked="#navigateToHome" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="16.0">
+      <ImageView id="imgHome" fitHeight="53.0" fitWidth="61.0" layoutX="14.0" layoutY="16.0" onMouseClicked="#navigateToHome" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../asset/home-icon.png" />
          </image>
@@ -34,25 +34,25 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </ImageView>
-      <Label layoutX="95.0" layoutY="24.0" text="Manage Customers" AnchorPane.leftAnchor="95.0" AnchorPane.rightAnchor="322.0" AnchorPane.topAnchor="24.0">
+      <Label layoutX="95.0" layoutY="24.0" text="Manage Customers">
          <font>
             <Font name="Lucida Sans Demibold" size="27.0" />
          </font>
       </Label>
-      <JFXButton id="btnAddNewCustomer" layoutX="518.0" layoutY="67.0" onAction="#btnAddNew_OnAction" prefHeight="35.0" prefWidth="122.0" style="-fx-cursor: hand;" text="+ New Customer" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="70.0" />
-      <JFXTextField fx:id="txtCustomerId" labelFloat="true" layoutX="17.0" layoutY="118.0" prefHeight="28.0" prefWidth="615.0" promptText="Customer ID :" AnchorPane.leftAnchor="17.0" AnchorPane.rightAnchor="22.0" AnchorPane.topAnchor="118.0" />
-      <JFXTextField fx:id="txtCustomerName" labelFloat="true" layoutX="17.0" layoutY="164.0" prefHeight="28.0" prefWidth="615.0" promptText="Customer Name :" AnchorPane.leftAnchor="17.0" AnchorPane.rightAnchor="22.0" AnchorPane.topAnchor="164.0" />
-      <JFXTextField fx:id="txtCustomerAddress" labelFloat="true" layoutX="17.0" layoutY="212.0" prefHeight="28.0" prefWidth="615.0" promptText="Customer Address :" AnchorPane.leftAnchor="17.0" AnchorPane.rightAnchor="22.0" AnchorPane.topAnchor="212.0" />
-      <JFXButton id="btnSave" fx:id="btnSave" layoutX="246.0" layoutY="278.0" onAction="#btnSave_OnAction" prefHeight="28.0" prefWidth="74.0" style="-fx-cursor: hand;" text="SAVE" AnchorPane.leftAnchor="246.0" AnchorPane.rightAnchor="334.0" AnchorPane.topAnchor="278.0" />
-      <JFXButton id="btnDelete" fx:id="btnDelete" layoutX="330.0" layoutY="278.0" onAction="#btnDelete_OnAction" prefHeight="28.0" prefWidth="74.0" style="-fx-cursor: hand;" text="DELETE" AnchorPane.leftAnchor="330.0" AnchorPane.rightAnchor="250.0" AnchorPane.topAnchor="278.0" />
-      <TableView fx:id="tblCustomers" layoutX="22.0" layoutY="316.0" prefHeight="285.0" prefWidth="615.0" AnchorPane.bottomAnchor="11.0" AnchorPane.leftAnchor="22.0" AnchorPane.rightAnchor="17.0">
+      <JFXButton id="btnAddNewCustomer" layoutX="518.0" layoutY="67.0" onAction="#btnAddNew_OnAction" prefHeight="35.0" prefWidth="122.0" style="-fx-cursor: hand;" text="+ New Customer" />
+      <JFXTextField fx:id="txtCustomerId" labelFloat="true" layoutX="17.0" layoutY="118.0" prefHeight="28.0" prefWidth="615.0" promptText="Customer ID :" />
+      <JFXTextField fx:id="txtCustomerName" labelFloat="true" layoutX="17.0" layoutY="164.0" prefHeight="28.0" prefWidth="615.0" promptText="Customer Name :" />
+      <JFXTextField fx:id="txtCustomerAddress" labelFloat="true" layoutX="17.0" layoutY="212.0" prefHeight="28.0" prefWidth="615.0" promptText="Customer Address :" />
+      <JFXButton id="btnSave" fx:id="btnSave" layoutX="246.0" layoutY="278.0" onAction="#btnSave_OnAction" prefHeight="28.0" prefWidth="74.0" style="-fx-cursor: hand;" text="SAVE" />
+      <JFXButton id="btnDelete" fx:id="btnDelete" layoutX="330.0" layoutY="278.0" onAction="#btnDelete_OnAction" prefHeight="28.0" prefWidth="74.0" style="-fx-cursor: hand;" text="DELETE" />
+      <TableView fx:id="tblCustomers" layoutX="22.0" layoutY="316.0" prefHeight="285.0" prefWidth="615.0">
         <columns>
           <TableColumn prefWidth="97.0" text="Customer ID" />
           <TableColumn prefWidth="230.0" text="Customer Name" />
             <TableColumn prefWidth="282.0" text="Customer Address" />
         </columns>
       </TableView>
-      <ImageView fitHeight="35.0" fitWidth="209.0" layoutX="267.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true" style="-fx-opacity: 0.5;" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="15.0">
+      <ImageView fitHeight="35.0" fitWidth="209.0" layoutX="483.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true" style="-fx-opacity: 0.5;">
          <image>
             <Image url="@../asset/SellMate-logo.png" />
          </image>
