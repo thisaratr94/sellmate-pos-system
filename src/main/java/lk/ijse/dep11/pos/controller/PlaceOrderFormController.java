@@ -207,7 +207,7 @@ public class PlaceOrderFormController {
             JasperDesign jasperDesign = JRXmlLoader.load(getClass().getResourceAsStream("/print/pos-invoice.jrxml"));
             JasperReport jasperReport = JasperCompileManager.compileReport(jasperDesign);
             HashMap<String, Object> reportParams = new HashMap<>();
-            reportParams.put("id",lblId.getText());
+            reportParams.put("id",lblId.getText().substring(10));
             reportParams.put("date",lblDate.getText());
             reportParams.put("customerId",cmbCustomerId.getValue().getId());
             reportParams.put("customerName",cmbCustomerId.getValue().getName());

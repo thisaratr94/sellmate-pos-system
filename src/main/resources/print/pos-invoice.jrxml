@@ -32,7 +32,7 @@
 				<textElement textAlignment="Center" verticalAlignment="Top">
 					<font size="12" isBold="true"/>
 				</textElement>
-				<text><![CDATA[Smart POS]]></text>
+				<text><![CDATA[SellMate Point of Sale]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="0" y="40" width="190" height="20" uuid="39258f01-0f09-4894-99fc-cf750a1a84de"/>
@@ -255,7 +255,7 @@
 			</staticText>
 			<staticText>
 				<reportElement x="0" y="24" width="190" height="19" uuid="b2971521-19c9-4f70-a587-25bc2e480b1a"/>
-				<textElement verticalAlignment="Middle">
+				<textElement verticalAlignment="Bottom">
 					<font size="8"/>
 				</textElement>
 				<text><![CDATA[Copuright (c) 2023 DEP-11.All Rights Reserved]]></text>
