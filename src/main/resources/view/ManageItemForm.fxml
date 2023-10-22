@@ -39,7 +39,7 @@
             <Font name="Lucida Sans Demibold" size="27.0" />
          </font>
       </Label>
-      <JFXButton id="btnAddNewCustomer" layoutX="517.0" layoutY="70.0" onAction="#btnAddNew_OnAction" prefHeight="35.0" prefWidth="122.0" style="-fx-cursor: hand;" text="+ New Item" />
+      <JFXButton id="btnAddNewCustomer" fx:id="btnAddNew" layoutX="517.0" layoutY="70.0" onAction="#btnAddNew_OnAction" prefHeight="35.0" prefWidth="122.0" style="-fx-cursor: hand;" text="+ New Item" />
       <JFXTextField fx:id="txtCode" labelFloat="true" layoutX="17.0" layoutY="118.0" prefHeight="28.0" prefWidth="615.0" promptText="Item Code :" />
       <JFXTextField fx:id="txtDescription" labelFloat="true" layoutX="17.0" layoutY="164.0" prefHeight="28.0" prefWidth="615.0" promptText="Item Description :" />
       <JFXTextField fx:id="txtQtyOnHand" labelFloat="true" layoutX="17.0" layoutY="212.0" prefHeight="28.0" prefWidth="615.0" promptText="Qty. on Hand" />
