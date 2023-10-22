@@ -1,6 +1,7 @@
 package lk.ijse.dep11.pos.db;
 
 import lk.ijse.dep11.pos.tm.Order;
+import lk.ijse.dep11.pos.tm.OrderItem;
 
 import java.math.BigDecimal;
 import java.sql.*;
