@@ -1,6 +1,8 @@
 # SellMate Point of Sale System (POS) 
 
+
 ![Logo](img/SellMate-logo-2.png)
+
 
 All-In-One Point of Sale Software: Elevate Your Sales Experience
 
