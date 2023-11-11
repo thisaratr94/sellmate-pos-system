@@ -14,7 +14,7 @@ public class SplashScreenController {
     public AnchorPane root;
 
     public void initialize() {
-        PauseTransition pauseTransition = new PauseTransition(Duration.millis(1500));
+        PauseTransition pauseTransition = new PauseTransition(Duration.millis(2500));
         pauseTransition.setOnFinished(e -> {
             try{
                 openMainScene();
