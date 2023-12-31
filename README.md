@@ -8,7 +8,7 @@ All-In-One Point of Sale Software: Elevate Your Sales Experience
 
 ## Overview
 
-Welcome to the Point of Sale (POS) System repository! This project serves as a showcase of coding abilities and is open for contributions from the community. Built using JavaFX, PostgreSQL, JDBC, and Jaspersoft Studio, this POS system provides a comprehensive solution for managing transactions, inventory, and customer relations. This project serves as a showcase of coding abilities and is open for contributions from the community.
+Welcome to the Point of Sale (POS) System repository! This project has developed using JavaFX, PostgreSQL, JDBC, and Jaspersoft Studio, this POS system provides a comprehensive solution for managing transactions, inventory, and customer relations. This project serves as a showcase of coding abilities and is open for contributions from the community.
 
 ## Project Preview
 
